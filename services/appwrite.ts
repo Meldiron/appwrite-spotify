@@ -1,9 +1,9 @@
-import { Appwrite } from "appwrite";
+import { Appwrite } from 'fake-appwrite'
 
 const appwrite = new Appwrite();
 
 appwrite
-    .setEndpoint('http://localhost/v1')
+    .setEndpoint('https://aw.matejbaco.eu/v1')
     .setProject('spotifyHistory');
 
 export const AppwriteService = {

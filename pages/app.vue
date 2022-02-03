@@ -166,7 +166,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { Appwrite, Models } from 'appwrite'
+import { Appwrite, Models } from 'fake-appwrite'
 import { AppwriteService } from '../services/appwrite'
 
 export default Vue.extend({
